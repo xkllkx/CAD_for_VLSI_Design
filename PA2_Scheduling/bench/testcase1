@@ -1,0 +1,17 @@
+# Testcase 1
+Latency constrain: 5
+
+# Test data
+1 i 5 
+2 i 5 4 6 
+3 i 4 7 
+4 + 6 7 
+5 + 8 
+6 * 8 9 10 
+7 + 9 10 
+8 + 11 
+9 + 12 
+10 + 13 
+11 o 
+12 o 
+13 o 
