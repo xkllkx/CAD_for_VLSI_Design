@@ -104,15 +104,16 @@ buf轉為BUFF"]-->28[["GATE_PIN_temp = parentheses_disassemble(input_temp)"]]-->
 29["寫入gate與pin腳"]-->24
 ```
 
-### PA2：Pipeline Scheduling
+## PA2：Pipeline Scheduling
 ### Goal：
 Write an automated scheduling tool. The tool aims to schedule all computation steps (i.e., nodes) within the specified CLK cycles (i.e., latency constraint) while minimizing the number of hardware units (Adders and Multipliers) required.
-
 | Testcase | Latency constrain | Sample Adder num | Adder num | Sample Multiplier num | Multiplier num | 
 | --- |--- |--- |--- |--- |--- |
 | Testcase1	  | 5	| 3	 | 3	| 1 | 1 |
 | Testcase2	  | 19	| 12 | 7	| 19 | 10 |
 | Testcase3	  | 43	| 813 | 120	| 1040 | 331 |
+
+
 
 ```mermaid
 %% ---
